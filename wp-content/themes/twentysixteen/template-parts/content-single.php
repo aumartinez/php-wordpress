@@ -36,6 +36,14 @@
 				get_template_part( 'template-parts/biography' );
 			}
 			?>
+		<p>
+			<strong>My current mood is: </strong> <em>
+			  <?php
+			    $key = "mood";
+			    echo get_post_meta($post->ID, $key, true);
+			  ?>
+			</em>		
+		</p>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
