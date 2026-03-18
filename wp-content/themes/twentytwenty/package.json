@@ -19,8 +19,8 @@
 	},
 	"devDependencies": {
 		"@wordpress/browserslist-config": "^2.6.0",
-		"@wordpress/scripts": "^30.5.0",
-		"autoprefixer": "^10.4.16",
+		"@wordpress/scripts": "^27.7.0",
+		"autoprefixer": "^9.6.1",
 		"concurrently": "^7.6.0",
 		"postcss-cli": "^10.1.0",
 		"rtlcss": "^4.0.0",
